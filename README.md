@@ -68,3 +68,5 @@ Decidir qué hilo despertarlos es incierto y depende de la implementación específ
 Debido a que el método notify () despierta un solo subproceso aleatorio, se puede usar para implementar bloqueos exclusivos mutuamente excluyentes (para múltiples subprocesos que realizan tareas similares). Implemente el método notifyAll () usando notify ()
 
 Mas practico.
+12. join()
+El método join() se utiliza para mantener la ejecución del hilo que se está ejecutando actualmente hasta que el hilo especificado esté muerto(ejecución terminada).
