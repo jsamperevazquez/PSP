@@ -9,6 +9,7 @@ public class Principal {
         Hilos hilo1 = new Hilos("número1");
         Hilos hilo2 = new Hilos("número2");
         hilo2.setPriority(Thread.MAX_PRIORITY);
+        hilo1.setPriority(Thread.MIN_PRIORITY);
         hilo2.start();
         hilo2.join();
         hilo1.start();
