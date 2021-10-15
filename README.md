@@ -13,6 +13,9 @@
 ### Definición de hilo
 En Java un hilo es un objeto con capacidad de correr en forma concurrente el método run(). En cierta manera es como tener dos "program counters" para un mismo código. Una diferencia con los procesos es que carece de sentido y no es posible en este enfoque hacer mutar un proceso con algo similar a exec().
 
+### Estados de un hilo
+![foto estados](/src/Media/threads.png)
+
 ### Metodos para usar con hilos
 1. start()
 
