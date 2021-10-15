@@ -49,3 +49,19 @@ Este método permite identificar al hilo con un nombre menmónico. De esta manera 
 9. getName()
 
 Este método devuelve el valor actual, de tipo cadena, asignado como nombre al hilo en ejecución mediante setName().
+
+10. wait()
+
+El método wait () hace que el hilo actual espere indefinidamente hasta que otro hilo llame al método notify () o notifyAll () del objeto.
+
+The wait() method causes the current thread to wait indefinitely until another thread either invokes notify() for this object or notifyAll().
+
+11. notify()
+
+Para todos los hilos que esperan el monitor del objeto actual (usando cualquiera de los métodos de espera), el método de notificación () despertará a cualquiera de ellos.
+
+Decidir qué hilo despertarlos es incierto y depende de la implementación específica.
+
+Debido a que el método notify () despierta un solo subproceso aleatorio, se puede usar para implementar bloqueos exclusivos mutuamente excluyentes (para múltiples subprocesos que realizan tareas similares). Implemente el método notifyAll () usando notify ()
+
+Mas practico.
