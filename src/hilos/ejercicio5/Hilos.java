@@ -11,6 +11,6 @@ public class Hilos extends Thread {
 
     @Override
     public void run() {
-        System.out.println("Ola, son o fío " + getName());
+        System.out.println("Ola, son o fío " + getName() + " con prioridad-> " + getPriority());
     }
 }
